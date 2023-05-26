@@ -10,8 +10,13 @@ it('nada agora', function () {})
 //}
 
 //terceira forma arrow function
-const soma = (a, b) => {
-    return a + b
-}
+//const soma = (a, b) => {
+//    return a + b
+//}
+
+//Forma reduzida
+const soma = (a, b) => a + b
+
+//const soma = a => a + a
 
 console.log(soma(1, 4))
